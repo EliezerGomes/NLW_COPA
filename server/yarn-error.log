@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\eliez\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add prisma -D
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\php7.4;C:\Program Files (x86)\dotnet\;C:\composer;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-11.0.14.1_1\bin;D:\Programas\Git\cmd;C:\Users\eliez\AppData\Local\Microsoft\WindowsApps;D:\Programas\Microsoft VS Code\bin;C:\Users\eliez\AppData\Roaming\Composer\vendor\bin;C:\Users\eliez\AppData\Roaming\npm;C:\Andoid\Sdk\emulator;C:\Andoid\Sdk\tools;C:\Andoid\Sdk\tools\bin;C:\Andoid\Sdk\platform-tools;C:\Users\eliez\AppData\Local\Yarn\bin;
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Projetos\React\nlw-copa\server\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "tsx watch src/server.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "tsx": "^3.11.0",
+      "typescript": "^4.8.4"
+    },
+    "dependencies": {
+      "fastify": "^4.9.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
